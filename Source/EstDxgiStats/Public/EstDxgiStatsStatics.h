@@ -14,7 +14,7 @@ struct ESTDXGISTATS_API FEstGraphicsAdapterInformation
 	int64 TotalGpuMemoryBytes;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = DxgiStats)
-	int64 AvaialableGpuMemoryBytes;
+	int64 AvailableGpuMemoryBytes;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = DxgiStats)
 	int64 UsedGpuMemoryBytes;

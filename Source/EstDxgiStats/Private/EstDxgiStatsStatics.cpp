@@ -23,7 +23,7 @@ FEstGraphicsAdapterInformation UEstDxgiStatsStatics::GetActiveGraphicsAdapterInf
     FEstGraphicsAdapterInformation result;
     result.Description = FString(adapterDescription.Description);
     result.TotalGpuMemoryBytes = adapterDescription.DedicatedVideoMemory;
-    result.AvaialableGpuMemoryBytes = videoMemoryInfo.Budget;
+    result.AvailableGpuMemoryBytes = videoMemoryInfo.Budget;
     result.UsedGpuMemoryBytes = videoMemoryInfo.CurrentUsage;
     return result;
 }
