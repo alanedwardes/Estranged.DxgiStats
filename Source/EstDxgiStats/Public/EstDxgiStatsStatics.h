@@ -28,6 +28,4 @@ class ESTDXGISTATS_API UEstDxgiStatsStatics : public UBlueprintFunctionLibrary
 public:
 	UFUNCTION(BlueprintCallable, Category = DxgiStats)
 	static FEstGraphicsAdapterInformation GetActiveGraphicsAdapterInformation();
-private:
-	static class IDXGIAdapter3* GetActiveGraphicsAdapter(struct DXGI_ADAPTER_DESC* adapterDescription);
 };
