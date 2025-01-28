@@ -1,0 +1,11 @@
+{
+	"FileVersion": 3,
+	"CreatedBy": "Alan Edwardes",
+	"CreatedByURL": "https://alanedwardes.com/",
+	"Modules": [
+		{
+			"Name": "EstDxgiStats",
+			"Type": "Runtime"
+		}
+	]
+}
