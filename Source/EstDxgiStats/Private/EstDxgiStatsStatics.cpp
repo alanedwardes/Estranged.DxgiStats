@@ -1,6 +1,7 @@
 #include "EstDxgiStatsStatics.h"
 #include "EstDxgiStats.h"
 #include "ID3D12DynamicRHI.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(EstDxgiStatsStatics)
 
 FEstGraphicsAdapterInformation UEstDxgiStatsStatics::GetActiveGraphicsAdapterInformation()
 {
