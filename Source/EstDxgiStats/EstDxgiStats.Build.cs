@@ -4,6 +4,8 @@ public class EstDxgiStats : ModuleRules
 {
     public EstDxgiStats(ReadOnlyTargetRules Target) : base(Target)
     {
+        IWYUSupport = IWYUSupport.Full;
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
         PrivateDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "RHI" });
 
         PublicIncludePathModuleNames.AddRange(new string[] { });
