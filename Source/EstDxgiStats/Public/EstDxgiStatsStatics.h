@@ -1,5 +1,6 @@
 #pragma once
 
+#include "Kismet/BlueprintFunctionLibrary.h"
 #include "EstDxgiStatsStatics.generated.h"
 
 USTRUCT(BlueprintType)
